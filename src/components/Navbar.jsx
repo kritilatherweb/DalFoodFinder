@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between items-center px-6 py-4 md:px-20 lg:px-32 bg-transparent'>
         <img src={assets.logo} alt="" />
         <ul className='hidden md:flex gap-7 text-white'>
-            <a href="#Header" className='cursor-pointer hover:text-grey-400'>Home</a>
-            <a href="#Header" className='cursor-pointer hover:text-grey-400'>About</a>
-            <a href="#Header" className='cursor-pointer hover:text-grey-400'>Food Corners</a>
+            <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
+            <a href="#Header" className='cursor-pointer hover:text-gray-800'>About</a>
+            <a href="#Header" className='cursor-pointer hover:text-gray-400'>Food Corners</a>
 
         </ul>
 
