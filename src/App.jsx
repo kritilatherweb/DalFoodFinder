@@ -4,17 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Header from './components/Header'
-
+import About from './components/About'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='w-full overflow-hidden'>
     <Header/>
-
-     
-    </>
+    <About/>
+  
+    </div>
   )
 }
 
