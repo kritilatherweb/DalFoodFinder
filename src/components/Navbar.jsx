@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='absolute top-0 left-0 w-full z-10'>
       <div className='container mx-auto flex justify-between items-center px-6 py-4 md:px-20 lg:px-32 bg-transparent'>
-        <img src="" alt="Image" />
+        <img src={assets.logo} alt="" />
         <ul className='hidden md:flex gap-7 text-white'>
             <a href="#Header" className='cursor-pointer hover:text-grey-400'>Home</a>
             <a href="#Header" className='cursor-pointer hover:text-grey-400'>About</a>
